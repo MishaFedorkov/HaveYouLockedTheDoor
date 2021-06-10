@@ -1,3 +1,7 @@
+window.addEventListener("load", () => {
+    document.getElementById("CloseWind").addEventListener("click", () => {window.close()})
+});
+
 window.alert("Hold up! Mind answearing some questions?");
         let name = window.prompt("Enter your prefered name:", "Guest",);
         let age = window.prompt("This game has some sensitive material, so we have to verify your age. How old are you? ");

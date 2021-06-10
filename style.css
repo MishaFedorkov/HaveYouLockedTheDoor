@@ -13,13 +13,13 @@ body {
 .block {
     background: #050303;
     width: 840px;
-    height: 2500px;
+    height: 2400px;
     margin: auto;
     display: inline-block;
     padding-top: 35px;
 }
 .head {
-    background: darkslategray;
+    background: #212529;
     width: 100%;
     height: 100px;
     display: flex;
@@ -91,4 +91,20 @@ p {
     width: 95%;
     height: auto;
     padding: 10px;
+}
+.downloadBtn {
+    height: 100px;
+    width: 100%;
+    background-color: #558c8c;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    padding: 20px;
+}
+.u {
+    padding: 20px;
+    align-items: center;
+}
+.AAA {
+    color: #ca9fa5;
 }
